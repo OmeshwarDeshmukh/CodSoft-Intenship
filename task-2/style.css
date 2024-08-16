@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Footer  */
+
+body {
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+}
+
+header {
+  overflow-x: none;
+}
+
+nav {
+  width: 100%;
+}
+
+.navContainer {
+  width: 100%;
+  background-color: rgb(167, 167, 255);
+  min-height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navList {
+  margin: 0 2rem;
+  list-style: none;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navLogo {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  margin: 0 1rem;
+  font-weight: 500;
+}
+
+li a:hover {
+  margin: 0 1rem;
+  color: black;
+  text-decoration: underline 1.5px solid black;
+}
+
+/* Main contain  */
+
+.contentBox {
+  width: 70%;
+  margin: 2rem auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 3rem;
+  box-shadow: 1px 1px 30px black;
+  border-radius: 5px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rightBox img {
+  height: 200px;
+  border-radius: 20px;
+
+}
+
+/* Footer  */
+
+footer p {
+  position: relative;
+  bottom: 0;
+  height: 2.1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background-color: rgb(147, 147, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
